@@ -3,7 +3,6 @@ package projetoRPG;
 import java.util.Scanner;
 
 public class Main {
-
 	
 	public static void main(String[] args) {		
 		
@@ -126,9 +125,8 @@ public class Main {
 		
 		System.out.println("Inspirado pelo motivo que te trouxe até aqui, você sente seu coração ardendo em chamas, suas\r\n"
 				+ "mãos formigarem em volta da sua arma. Você a segura com firmeza. Seu foco está renovado.\r\n"
-				+ "Você avança pelo portal.");
-		
-		System.out.println("A escuridão te envolve. Uma iluminação muito fraca entra pelo portal às suas costas. À sua\r\n"
+				+ "Você avança pelo portal.\r\n"
+				+"A escuridão te envolve. Uma iluminação muito fraca entra pelo portal às suas costas. À sua\r\n"
 				+ "frente, só é possível perceber que você se encontra em um corredor extenso. Você só pode ir à\r\n"
 				+ "frente, ou desistir.");
 //seta msgs Combate
@@ -196,18 +194,15 @@ public class Main {
 				+ "não sabe ler, mas reconhece como sendo a língua antiga utilizada pelo inimigo. Você se aproxima\r\n"
 				+ "da porta e percebe que ela está trancada por duas fechaduras douradas, e você entende que\r\n"
 				+ "precisará primeiro derrotar o que estiver nas outras duas portas laterais, antes de conseguir\r\n"
-				+ "enfrentar o líder.");
-		
-		System.out.println("Você se dirige para a porta à direita.");
-		
-		System.out.println("PORTA DIREITA: Você se aproxima, tentando ouvir o que acontece porta adentro, mas não\r\n"
+				+ "enfrentar o líder.\r\n"
+				+"Você se dirige para a porta à direita.\r\n"
+				+"PORTA DIREITA: Você se aproxima, tentando ouvir o que acontece porta adentro, mas não\r\n"
 				+ "escuta nada. Segura com mais força sua arma com uma mão, enquanto empurra a porta com a\r\n"
 				+ "outra. Ao entrar, você se depara com uma sala espaçosa, com vários equipamentos de batalha\r\n"
 				+ "pendurados nas paredes e dispostos em armários e mesas. Você imagina que este seja o arsenal\r\n"
 				+ "do inimigo, onde estão guardados os equipamentos que seus soldados utilizam quando saem\r\n"
-				+ "para espalhar o terror nas cidades e vilas da região.");
-		
-		System.out.println("Enquanto seu olhar percorre a sala, você ouve a porta se fechando e gira rapidamente para olhar\r\n"
+				+ "para espalhar o terror nas cidades e vilas da região.\r\n"
+				+"Enquanto seu olhar percorre a sala, você ouve a porta se fechando e gira rapidamente para olhar\r\n"
 				+ "para trás. Ali, de pé entre você e a porta fechada, bloqueando o caminho do seu destino, está um\r\n"
 				+ "dos capitães do inimigo. Um orque horrendo, de armadura, capacete e espada em punho, em\r\n"
 				+ "posição de combate. Ele avança em sua direção.");		
@@ -273,9 +268,8 @@ public class Main {
 		
 		System.out.println("Em uma mesa, você encontra uma chave dourada, e sabe que aquela chave abre uma das\r\n"
 				+ "fechaduras da porta do líder inimigo. Você pega a chave e guarda numa pequena bolsa que leva\r\n"
-				+ "presa ao cinto.");
-		
-		System.out.println("PORTA ESQUERDA: Você retorna à sala anterior e se dirige à porta da esquerda. Você se\r\n"
+				+ "presa ao cinto.\r\n"
+				+ "PORTA ESQUERDA: Você retorna à sala anterior e se dirige à porta da esquerda. Você se\r\n"
 				+ "aproxima, tentando ouvir o que acontece porta adentro, mas não escuta nada. Segura com mais\r\n"
 				+ "força sua arma com uma mão, enquanto empurra a porta com a outra. Ao entrar, você se depara\r\n"
 				+ "com uma sala parecida com a do arsenal, mas em vez de armaduras, existem vários potes e\r\n"
@@ -283,8 +277,7 @@ public class Main {
 				+ "que vive ali, realiza experimentos com diversos ingredientes, criando poções utilizadas pelos\r\n"
 				+ "soldados para aterrorizar a região.\r\n"
 				+ "No fundo da sala, olhando em sua direção, está outro dos capitães do inimigo. Um orque\r\n"
-				+ "horrendo, de armadura, cajado em punho, em posição de combate. Ele avança em sua direção.");
-		
+				+ "horrendo, de armadura, cajado em punho, em posição de combate. Ele avança em sua direção.");		
 //combate
 		System.out.println("Você deseja LUTAR ou FUGIR?");
 		continuaCombate = inputJogador.nextLine();
@@ -346,9 +339,8 @@ public class Main {
 				+ "De volta à sala das portas, você se dirige à porta final. Coloca as chaves nas fechaduras, e a\r\n"
 				+ "porta se abre. Seu coração acelera, memórias de toda a sua vida passam pela sua mente, e você\r\n"
 				+ "percebe que está muito próximo do seu objetivo final. Segura sua arma com mais firmeza, foca\r\n"
-				+ "no combate que você sabe que irá se seguir, e adentra a porta.");
-		
-		System.out.println("Lá dentro, você vê o líder sentado em uma poltrona dourada, com duas fogueiras de cada lado, e\r\n"
+				+ "no combate que você sabe que irá se seguir, e adentra a porta.\r\n"
+				+ "Lá dentro, você vê o líder sentado em uma poltrona dourada, com duas fogueiras de cada lado, e\r\n"
 				+ "prisioneiros acorrentados às paredes.\r\n"		
 				+ "Ele percebe sua chegada e se levanta com um salto, apanhando seu machado de guerra de\r\n"
 				+ "lâmina dupla.");
@@ -394,7 +386,6 @@ public class Main {
 			System.out.println(msgFugir);
 			System.exit(0);
 			}
-
 		
 		System.out.println("Você conseguiu!");
 		inputJogador.close();
