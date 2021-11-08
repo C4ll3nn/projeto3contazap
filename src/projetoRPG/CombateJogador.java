@@ -4,24 +4,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class CombateJogador {
 	public static double jogadorAtaca(double vidaInimigo, String armaJogador, double defesaInimigo, String dificuldade) {
-		
-//		double vidaInimigo = 100.0d;
-//		double defesaInimigo = 2.0d;
-//		
-//		switch(nomeInimigo) {
-//			case "Orque":
-//				vidaInimigo = Inimigos.Orque.getVidaInimigo();
-//				defesaInimigo = Orque.getArmaduraInimigo();
-//				break;
-//			case "Alquimista":
-//				vidaInimigo = Alquimista.getVidaInimigo();
-//				defesaInimigo = Alquimista.getArmaduraInimigo();
-//				break;
-//			case "Lider":
-//				vidaInimigo = Lider.getVidaInimigo();
-//				defesaInimigo = Lider.getArmaduraInimigo();
-//				break;
-//		}
+
 		double dano = 0.0d;
 		double dadoNormalizado = 0.0d;
 		
